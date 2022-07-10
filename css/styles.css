@@ -322,13 +322,12 @@ a {
 
 
 .card--secondary .card__header {
-    background: var(--color-secondary);
+    background: var(--color-primary);
     color: #fff;
 }
 
 .card--secondary .badge--secondary {
     background: #02cdf1;
-
 }
 
 
@@ -362,7 +361,7 @@ a {
     margin-bottom: 2rem;
 }
 
-.plan--popular .card__header {
+.plan--popular {
     position: relative;
 }
 
@@ -395,3 +394,19 @@ a {
 }
 
 
+/* Media  */
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2rem;
+}
+
+.media {
+    margin-top: 1rem;
+}
