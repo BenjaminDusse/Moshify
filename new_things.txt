@@ -1,0 +1,8 @@
+1. svg sprite generator for ... Drop files is enough
+2. inside sprite.svg file every symbol means each icon.
+3. for using icons from sprite.svg:
+<svg class="icon">
+        <use xlink:href="images/sprite.svg#wordpress"></use>
+      </svg>
+
+4. 
